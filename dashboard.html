@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="./css/style.css">
+    
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> -->
+</head>
+<body>
+    <div class="header">
+        <div class="right">
+        <div class="menubar">
+            <img src="./images/menu-bar.svg" alt="Image not found" class="menu-bar">
+        </div>
+        <div class="header-logo">
+            <img src="./images/favicon.ico" alt="Image not found" class="logo-dashboard">
+            <p class="header-name">Company</p>
+        </div>
+    </div>
+        <div class="searchIcon">
+            <img src="./images/search-icon.svg" alt="Image not found" class="search-icon">
+            <div class="search">
+                <p class="searchPara">search</p>
+            </div>
+        </div>
+    
+        <div class="notificationIcon">
+            <img src="./images/notification-icon.svg" alt="Image not found" class="notification">
+            <img src="./images/profile.png" alt="Image not found" class="profilePic">
+            <p class="profileName">John Doe</p>
+            <img class="downArrow" src="./images/downward-arrow.svg" alt="Image not found">
+        </div>
+        </div>
+
+        <!-- content -->
+
+        <div class="flex">
+        <div class="sidebar">
+            <div class="items">
+                <img src="./images/dashboard-active.svg" alt="Image not found" class="itemImg">
+                <p class="itemName">Dashboard</p>
+            </div>
+
+            <div class="items">
+                <img src="./images/graph-default.svg" alt="Image not found" class="itemImg">
+                <p class="itemName">Analysis</p>
+            </div>
+
+            <div class="items">
+                <img src="./images/inbox-default.svg" alt="Image not found" class="itemImg">
+                <p class="itemName">Inbox</p>
+            </div>
+
+            <div class="items">
+                <img src="./images/clock-default.svg" alt="Image not found" class="itemImg">
+                <p class="itemName">History</p>
+            </div>
+
+            <div class="items">
+                <img src="./images/user-default.svg" alt="Image not found" class="itemImg">
+                <p class="itemName">Users</p>
+            </div>
+
+            <div class="items">
+                <img src="./images/maintenance-default.svg" alt="Image not found" class="itemImg">
+                <p class="itemName">Maintenance</p>
+            </div>
+
+            <div class="items">
+                <img src="./images/setting-default.svg" alt="Image not found" class="itemImg">
+                <p class="itemName">Settings</p>
+            </div>
+        </div>
+
+        <div class="content">
+            <h1>Dashboard</h1>
+
+           
+            <div class="content-items">
+                <div class="justify">
+                <img src="./images/star.svg" alt="Image not found" class="symbol">
+                <div class="content-text">
+                    <p class="number">23,456</p>
+                    <p class="content-name">New Products</p>
+                </div>
+                </div>
+
+            <div class="justify">
+                <img src="./images/new-product.svg" alt="Image not found" class="symbol">
+                <div class="content-text">
+                    <p class="number">2345</p>
+                    <p class="content-name">Added Products</p>
+                </div>
+            </div>
+
+                <div class="justify">
+                <img src="./images/total-product.svg" alt="Image not found" class="symbol">
+                <div class="content-text">
+                    <p class="number">32,456</p>
+                    <p class="content-name">Total Products</p>
+                </div>
+            </div>
+
+                <div class="justify">
+                <img src="./images/dollar-filled.svg" alt="Image not found" class="symbol">
+                <div class="content-text">
+                    <p class="number">5678</p>
+                    <p class="content-name">Today's Sale</p>
+                </div>
+            </div>
+
+                <div class="justify">
+                <img src="./images/money-bag.svg" alt="Image not found" class="symbol">
+                <div class="content-text">
+                    <p class="number">33,5342</p>
+                    <p class="content-name">Total Sale</p>
+                </div>
+            </div>
+            </div>
+
+
+            <div class="sale">
+                <div class="column">
+                    <div class="sale-header">
+                        <h2>Sale</h2>
+                        <div class="sale-options">
+                            <h3 class="options">Weekly</h3>
+                            <h3 class="options">Monthly</h3>
+                            <h3 class="underline">Yearly</h3>
+                        </div>
+                    </div>
+                    
+                    <div class="graph">
+                        <img src="./images/data-graph.png" alt="Image not found" class="data-graph">
+                    </div>
+
+                </div>
+
+                <div class="sales">
+                    <h2>Sales by country</h2>
+                    <img src="./images/pie-chart.svg" alt="Image not found" class="pie-chart">
+
+                    <div class="radio">
+                        <div class="row">
+                        <div class="countryName col-6">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-circle-fill red radio-checked" viewBox="0 0 16 16">
+                                <circle cx="8" cy="8" r="8"/>
+                              </svg>
+                            <h4>United States of America</h4>
+                        </div>
+
+                        <div class="countryName col-6">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-circle-fill green radio-checked" viewBox="0 0 16 16">
+                                <circle cx="8" cy="8" r="8"/>
+                              </svg>
+                            <h4>Canada</h4>
+                        </div>
+                    </div>
+
+                <div class="row">
+                        <div class="countryName col-6">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-circle-fill orange radio-checked" viewBox="0 0 16 16">
+                                <circle cx="8" cy="8" r="8"/>
+                              </svg>
+                            <h4>Russia</h4>
+                        </div>
+
+                        <div class="countryName col-6">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-circle-fill yellow radio-checked" viewBox="0 0 16 16">
+                                <circle cx="8" cy="8" r="8"/>
+                              </svg>
+                            <h4>India</h4>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+
+             <div class="invoices-view">
+            <h2 class="heading1">Invoices</h2>
+            <p class="redLeft">view all</p>
+        </div>
+        <div class="row">
+            <table class="table" id="table-size">
+                <thead>
+                  <tr>
+                    <th scope="col" class="thead">INVOICE</th>
+                    <th scope="col" class="thead">COMPANY NAME</th>
+                    <th scope="col" class="thead">EMAIL</th>
+                    <th scope="col" class="thead">DUE DATE</th>
+                    <th scope="col" class="thead">STATUS</th>
+                    <th scope="col" class="thead">AMOUNT</th>
+                  </tr>
+                </thead>
+                
+                <tbody>
+                  <tr class="font">
+                    <th scope="row">651535</th>
+                    <td>Public Adjusting Firm</td>
+                    <td>georgia.young@example.com</td>
+                    <td>24 May, 2020</td>
+                    <td class="paid">Paid</td>
+                    <td>$47,800</td>
+                  </tr>
+                  <tr class="font">
+                    <th scope="row">558612</th>
+                    <td>Other</td>
+                    <td>jessica.hanson@example.com</td>
+                    <td>24 May, 2020</td>
+                    <td class="paid">Paid</td>
+                    <td>$98,000</td>
+                  </tr>
+                  <tr class="font">
+                    <th scope="row">558612</th>
+                    <td>Vendor</td>
+                    <td>alma.lawson@example.com</td>
+                    <td>8 Sep, 2020</td>
+                    <td class="paid">Paid</td>
+                    <td>$20,900</td>
+                  </tr>
+                  <tr class="font">
+                    <th scope="row">558612</th>
+                    <td>Property Management Company</td>
+                    <td>kenzi.lawson@example.com</td>
+                    <td>22 Oct, 2020</td>
+                    <td class="paid">Paid</td>
+                    <td>$10,570</td>
+                  </tr>
+                  <tr class="font">
+                    <th scope="row">651535</th>
+                    <td>Subcontractor Company</td>
+                    <td>jackson.graham@example.com</td>
+                    <td>1 Feb, 2020</td>
+                    <td class="failed">Failed</td>
+                    <td>$10,200</td>
+                  </tr>
+                  <tr class="font">
+                    <th scope="row">653518</th>
+                    <td>Mortgage Company</td>
+                    <td>felicia.reid@example.com</td>
+                    <td>22 Oct, 2020</td>
+                    <td class="pending">Pending</td>
+                    <td>$12,600</td>
+                  </tr>
+                  <tr class="font">
+                    <th scope="row">487441</th>
+                    <td>TPA</td>
+                    <td>dolores.chambers@example.com</td>
+                    <td>21 Sep, 2020</td>
+                    <td class="paid">Paid</td>
+                    <td>$11,170</td>
+                  </tr>
+                  <tr class="font">
+                    <th scope="row">267400</th>
+                    <td>Fire Department</td>
+                    <td>nevaeh.simmons@example.com</td>
+                    <td>17 Oct, 2020</td>
+                    <td class="failed">Failed</td>
+                    <td>$28,000</td>
+                  </tr>
+                  <tr class="font">
+                    <th scope="row">449003</th>
+                    <td>Insurance Carrier</td>
+                    <td>curtis.weaver@example.com</td>
+                    <td>21 Sep, 2020</td>
+                    <td class="paid">Paid</td>
+                    <td>$10,000</td>
+                  </tr>
+                </tbody>
+              </table>
+
+            </div>
+        </div>
+
+        
+
+    </div>
+            
+    </div>
+
+
+</body>
+</html>
